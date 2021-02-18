@@ -108,7 +108,7 @@ nav {
 
 
 #Einleitung {
-    background-image: url("C:/Users/hofth/oneDrive/Dokumente/Tandemfliegen Ridnaun/paragleiter.png");
+    background-image: url("paragleiter.png");
     background-color: white;
     background-repeat: no-repeat;
     background-position: right;
@@ -233,7 +233,7 @@ img {
     margin: 0 auto;
 }
 #videos {
-    background-image: url("C:/Users/hofth/OneDrive/Dokumente/Tandemfliegen Ridnaun/paragleiter-hintergrund.jpg");
+    background-image: url("paragleiter-hintergrund.jpg");
     background-color: white;
     background-repeat: no-repeat;
     background-position: left;
@@ -254,7 +254,7 @@ img {
 }
 
 #hintergrundcontainer {
-    background-image: url("C:/Users/hofth/OneDrive/Dokumente/Tandemfliegen Ridnaun/hintergrund-footer.jpg");
+    background-image: url("hintergrund-footer.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

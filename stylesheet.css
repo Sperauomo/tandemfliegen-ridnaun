@@ -1,0 +1,339 @@
+/******************STANDARD-ÄNDERUNGEN***************/
+body {
+    font-size: 20px;
+    background: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: 0 0;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+
+/*********************LOGO*************/
+#Logo {
+    position: fixed;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+@media (max-width: 70em) {
+    #Logo {
+        overflow: hidden;
+    }
+}
+
+
+/**********TITELBILD***************/
+#slide-1 {
+    display: flex;
+    justify-content: center;
+}
+.Titelbild {
+    object-fit: cover;
+    position: relative;
+    max-width: 100%;
+    max-height: 80%;
+    animation: fadein 0.25s ease-in;
+  }
+  @keyframes fadein {
+      0% {transform:scale(0)}
+      70% {transform:scale(0.8)}
+      100% {transform:scale(1)}
+  }
+
+/******************************/
+
+
+#Überschrift {
+    background-color: #4CAF50;
+}
+
+
+/**********MENÜ**************/
+#menueauflistung a {
+    color: black;
+    padding: 12px 16px;
+  }
+#menueauflistung a:hover {
+    transform:scale(1.2);
+    color: white;
+}
+#flexboxmenuemitte {
+    display: flex;
+    justify-content: center;
+}
+nav {
+    position: fixed;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #4CAF50;
+    padding: 20px 20px 20px 20px;
+    margin-top: 500px;
+}
+/************************/
+
+
+#Einleitung {
+    background-image: url("paragleiter.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: center;
+    border: solid white;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@media (max-width: 70em) {
+    #Einleitung {
+        background-image: none;
+    }
+}
+
+#dreigruende {
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ol {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    text-align: center;
+    color: white;
+    padding-top:1em;
+}
+ol li {
+    padding: 2em;
+    font-size: 1.3em;
+}
+
+
+
+#startplatzeins {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: darkgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+#textstartplatzeins {
+    text-align: center;
+}
+#startplatzzwei {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: darkgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+#textstartplatzzwei {
+    text-align: center;
+}
+@media (max-width: 70em) {
+    #startplatzeins, #startplatzzwei {
+        flex-flow: row wrap;
+    }
+}
+#startplatzeins > img:hover {
+    transform: scale(1.05);
+    transition: 200ms ease-in;
+}
+#startplatzzwei > img:hover {
+    transform: scale(1.05);
+    transition: 200ms ease-in;
+}
+
+
+
+#ablauftext {
+    text-align: center;
+}
+
+
+@media (max-width: 70em) {
+    #flexboxpiloten {
+        flex-flow: row wrap;
+    }
+}
+
+#flexboxpiloten {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(formbild.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#flexboxgabriel {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-right: solid white 1px;
+}
+#flexboxjoggl {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#flexboxalfred {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-left: solid white 1px;
+}
+img {
+    border: solid white;
+    max-width: 100%;
+}
+
+
+
+#Bildergalerieflexbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+
+#video {
+    display: block;
+    margin: 0 auto;
+}
+#videos {
+    background-image: url("paragleiter-hintergrund.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#videocentered {
+    display: blocK;
+    margin: auto;
+}
+@media (max-width: 70em) {
+    #videos {
+        background-image: none;
+    }
+}
+
+
+#tothetop {
+    position: fixed; bottom: 10px; right: 11px;
+}
+
+.float{
+	position:fixed;
+	width:100px;
+	height:100px;
+	bottom:10px;
+	left:11px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+#whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1em;
+}
+.float:hover {
+    transform: scale(1.05);
+}
+
+#gridcontainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60% 40%;
+    border: solid black;
+    margin-bottom: 6em;;
+    text-align: center;
+    padding: 1em;
+}
+    #element1 {
+        grid-row: 1;
+        grid-column: 1;
+    }
+    #element2 {
+        grid-row: 1;
+        grid-column: 2;
+    }
+    #element3 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #element4 {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+#minilinks {
+    display: flex;
+    justify-content: center;
+}
+
+#datenschutzlink {
+    display: block;
+    font-size: 0.5em;
+    opacity: 0.8em;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+
+
+#sprache {
+    display: block;
+    font-size: 0.5em;
+    opacity: 0.8em;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
